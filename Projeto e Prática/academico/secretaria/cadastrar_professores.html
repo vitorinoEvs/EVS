@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head><title>Cadastrar Professor</title>
+
+<meta charset="utf-8">
+</head>
+<body>
+<img src="../educa.jpg" height=60 width=80/>
+<div style="background-color:#00BFFF;"><h2>Cadastrar Professor</h2></div>
+
+<a href="..\index.html"><div align="right">Menu Principal</div></a>
+<h5>1. Dados Cadastrais</h5>
+<hr>
+
+			<form action="../cadastro.html" name="cadastro" method="post">
+<div>
+<img src="../usuario.jpg" align="left" height=80 width=80/>
+			Nome: <input type="texto" name="nome" id="nome"> Sobrenome: <input type="texto" name="nome" id="nome" >
+			Data de Nascimento: <input type="date" name="nascimento" id="nascimento" > Matrícula: <input type="texto" name="matricula" id="matricula" maxlength=13 minlength=10><br>
+			Celular: <input type="texto" name="cel" id="cel" placeholder=(DDD)> Email: <input type="texto" name="email" id="email" size=30>
+			
+				Sexo: <select id="sexo">
+					<option value="">Selecione</option> <option value="F">Feminino</option> <option value="M">Masculino</option></select>
+					
+				Estado Civil: <select id="estado civil">
+					<option value="">Selecione</option> <option value="C">Casado(a)</option> <option value="D">Divorciado(a)</option>
+						<option value="S"> Solteiro(a)</option> <option value="U">União Estável</option> <option value="V">Viúvo(a)</option>
+							<option value="O">Outros</option></select>
+							
+				Número de Filhos: <input type="texto" name="filho" id="filho" placeholder=0 size=1><br>
+<hr>
+
+			Cep: <input type="texto" name="cep" id="" size=5> Endereço: <input type="texto" name="rua" id="rua">
+			Número: <input type="texto" name="numero" id="numero" size=2> Complemento: <input type="texte" name="nome" id="nome"><br>
+
+				Estado: <select value="estado">
+					<option value="">Selecione</option> <option value="PE">Pernambuco</option> <option value="BA">Bahia</option>
+						<option value="ES">Espírito Santo</option> <option value="RN">Rio Grande do Norte</option></select>
+						
+			Cidade: <input type="texto" name="cidade" id="cidade"> Bairro: <input type="texto" name="bairro" id="bairro"><br>
+<hr>
+
+			RG: <input type="texto" name="rg" id="rg" > Data: <input type="date" name="data" id="data">
+			
+				Órgão Expedidor <select id="orgão">
+					<option value="">Selecione</option> <option value="SDS">Secretaria de Defesa Social</option>
+						<option value="CBM">Corpo de Bombeiro Militar</option> <option value="SJS">Secretaria de Justiça Social</option></select><br>
+						
+			CPF: <input type="texto" name="cpf" id="cpf" > Naturalidade: <input type="texto" name="natural" id="natural" > Nacionalidade: <input type="texto" name="nação" id="nascido" ><br>
+<hr>
+
+			Nome do Pai: <input type="texto" name="pai" id="pai" > Nome do Mãe: <input type="texto" name="Mãe" id="Mãe" size=30 >
+<hr>
+
+<hr width=200 size=8 style="background-color:#00BFFF;></hr width=200 size=8 style="background-color:#00BFFF;>
+<h5>2. Histórico Acadêmico</h5>
+<hr>
+
+			<b>Formação 1</b><br><br>
+
+				<select id="formação">
+					<option value="">Selecione</option> <option value="nivel">Nível de Formação:</option>
+						<option value="medio">Médio</option> <option value="graduacao">Graduação</option>
+							<option value="tecno">Técnologo</option> <option value="pos">Pós-Graduação</option>
+								<option value="mestre">Mestrado</option> <option value="doutor">Doutorado</option>
+									<option value="mba">MBA</option></select>
+									
+									
+			Nome da Instituição: <input type="texto" name="instituição" id="instituição" > Nome do Curso: <input type="texto" name="curso" id="curso" >
+			
+				<select id="estado">
+					<option value="">Selecione o Estado</option> <option value="acre">Acre</option> <option value="pe">Pernambuco</option>
+						<option value="ba">Bahia</option> </select><br>
+						
+						
+            Cidade: <input type="texto" name="cidade" id="cidade" > Ano de conclusão/previsão: <input type="texto" name="pai" id="pai" ><br><br>
+
+			<b>Formação 2</b><br><br>
+				<select id="formação">
+					<option value="">Selecione</option> <option value="nivel">Nível de Formação:</option> <option value="medio">Médio</option>
+						<option value="graduacao">Graduação</option> <option value="tecno">Técnologo</option> <option value="pos">Pós-Graduação</option>
+							<option value="mestre">Mestrado</option> <option value="doutor">Doutorado</option> <option value="mba">MBA</option></select>
+							
+							
+			Nome da Instituição: <input type="texto" name="instituição" id="instituição" > Nome do Curso: <input type="texto" name="curso" id="curso" >
+			
+				<select id="estado">
+					<option value="">Selecione o Estado</option> <option value="acre">Acre</option> <option value="pe">Pernambuco</option>
+						<option value="ba">Bahia</option> </select><br>
+						
+						
+			Cidade: <input type="texto" name="cidade" id="cidade" > Ano de conclusão/previsão: <input type="texto" name="conclusao" id="conclusao" ><br><br>
+
+			
+			<b>Formação 3</b><br><br>
+
+				<select id="formação">
+					<option value="">Selecione</option> <option value="nivel">Nível de Formação:</option> <option value="medio">Médio</option>
+						<option value="graduacao">Graduação</option> <option value="tecno">Técnologo</option> <option value="pos">Pós-Graduação</option>
+							<option value="mestre">Mestrado</option> <option value="doutor">Doutorado</option> <option value="mba">MBA</option></select>
+							
+							
+			Nome da Instituição: <input type="texto" name="instituição" id="instituição" > Nome do Curso: <input type="texto" name="curso" id="curso" >
+			
+			
+				<select id="estado">
+					<option value="">Selecione o Estado</option> <option value="acre">Acre</option> <option value="pe">Pernambuco</option>
+						<option value="ba">Bahia</option> </select><br>
+						
+						
+			Cidade: <input type="texto" name="cidade" id="cidade" > Ano de conclusão/previsão: <input type="texto" name="pai" id="pai" ><br><br>
+			
+			</form>
+<hr>
+
+<hr width=200 size=8 style="background-color:#00BFFF;></hr width=200 size=8 style="background-color:#00BFFF;><br>
+
+
+
+<br>
+<br>
+<input type="submit" name="envia" value="enviar">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

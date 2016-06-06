@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head><title>Emitir Comprovante Matricula</title>
+
+<meta charset="utf-8">
+</head>
+<body>
+<img src="../educa.jpg" height=60 width=80/>
+<div style="background-color:#00BFFF;"><h2>Emitir Comprovante de Matrícula</h2></div>
+
+<a href="..\index.html"><div align="right">Menu Principal</div></a>
+
+	<form  action="../cadastro.html" name="cadastro" method="post">
+		<form>
+			<table border="2">
+				<tr>
+					<th>Semestre</th> <th>x</th></tr>
+						<tr>
+							<td>1º Semestre</td> <td><input type="radio" name="semestre" id="1"></td></tr>
+								<tr>
+									<td>2º Semestre</td>  <td><input type="radio" name="semestre" id="2"></td></tr>
+										<tr>
+											<td>3º Semestre</td>  <td><input type="radio" name="semestre" id="3"></td></tr>
+												<tr>
+													<td>4º Semestre</td>  <td><input type="radio" name="semestre" id="4"></td></tr>
+														<tr>
+															<td>...</td>  <td><input type="radio" name="semestre" id="5"></td></td>
+		</form>	
+			</table>
+		
+<br><br><br>
+
+			<table border="2">
+				<tr>
+					<th>Emitir Documento</th></tr>
+			</table>
+<br>
+		
+			<table border="2">
+				<form>
+				<tr>
+					<td>Gerar PDF</td>  <td><input type="radio" name="gerar" id="gpdf"></tr>
+				<tr>
+					<td>Gerar PDF e enviar por Email</td>  <td><input type="radio" name="gerar" id="gpdfe"></tr>
+				<tr>
+					<td>...</td>  <td><input type="radio" name="gerar" id="..."></tr>
+		</form>
+			</table>
+<br>
+			<input type="submit" name="envia" id="Emitir">
+		</form>
+
+</body>
+</html>

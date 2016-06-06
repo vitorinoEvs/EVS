@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head><title>Alterar Dados Pessoais</title>
+
+<meta charset="utf-8">
+</head>
+<body>
+<img src="../educa.jpg" height=60 width=80/>
+<div style="background-color:#00BFFF;"><h2>Alterar Dados Pessoais</h2>
+</div>
+<a href="../index.html"><div align="right">Menu Principal</div></a>
+<h5>1. Dados Cadastrais</h5>
+<hr>
+
+			<form action="../cadastro.html">
+
+				<form>
+<div>
+	<img src="../usuario.jpg" align="left" height=80 width=80/>
+			Nome: <input type="texto" name="nome" id="nome"> Sobrenome: <input type="texto" name="nome" id="nome" >
+			Data de Nascimento: <input type="date" name="nascimento" id="nascimento" disabled> Matrícula: <input type="texto" name="matricula" id="matricula" maxlength=13 minlength=10 disabled><br>
+			Celular: <input type="texto" name="cel" id="cel" placeholder=(DDD)> Email: <input type="texto" name="email" id="email" size=30>
+					Sexo: <select id="sexo">
+						<option value="">Selecione</option> <option value="F">Feminino</option> <option value="M">Masculino</option></select>
+					
+					Estado Civil: <select id="estado civil">
+						<option value="">Selecione</option> <option value="C">Casado(a)</option> <option value="D"> Divorciado(a)</option> <option value="S">
+							Solteiro(a)</option> <option value="U"> União Estável</option> <option value="V">
+								Viúvo(a)</option> <option value="O"> Outros</option></select>
+								
+					Número de Filhos: <input type="texto" name="filho" id="filho" placeholder=0 size=1><br>
+<hr>
+			Cep: <input type="texto" name="cep" id="" size=5> Endereço: <input type="texto" name="rua" id="rua">
+			Número: <input type="texto" name="numero" id="numero" size=2> Complemento: <input type="texte" name="nome" id="nome"><br>
+					Estado: <select value="estado">
+						<option value="">Selecione</option> <option value="PE">Pernambuco</option> <option value="BA"> Bahia</option> <option value="ES">
+							Espírito Santo</option> <option value="RN"> Rio Grande do Norte</option></select>
+							
+			Cidade: <input type="texto" name="cidade" id="cidade"> Bairro: <input type="texto" name="bairro" id="bairro"><br>
+<hr>
+
+			RG: <input type="texto" name="rg" id="rg" disabled> Data: <input type="date" name="data" id="data" disabled>
+					Órgão Expedidor <select id="orgão" disabled>
+						<option value="SDS">Secretaria de Defesa Social</option> <option value="CBM">Corpo de Bombeiro Militar</option>
+							<option value="SJS">Secretaria de Justiça Social</option> </select><br>
+							
+			CPF: <input type="texto" name="cpf" id="cpf" disabled> Naturalidade: <input type="texto" name="natural" id="natural" disabled>
+			Nacionalidade: <input type="texto" name="nação" id="nascido" disabled><br>
+<hr>
+
+			Nome do Pai: <input type="texto" name="pai" id="pai" disabled> Nome do Mãe: <input type="texto" name="Mãe" id="Mãe" size=30 disabled>
+<hr>
+
+<hr width=200 size=8 style="background-color:#00BFFF;></hr width=200 size=8 style="background-color:#00BFFF;>
+
+<h5>2. Disciplinas</h5>
+
+					</form>
+<h4>Preferência de Horário:</h4>
+
+			<table border="2">
+				<tr>
+				<th>Turno</th> <th>Disciplina</th> <th>Professor</th> <th>Horário</th> <th BGCOLOR=black>-</th><th BGCOLOR=black>-</th> <th>Turno</th> <th>Disciplina</th> <th>Professor</th> <th>Horário</th><tr>
+<td><form>Tarde <form><input type="radio" name="turno" id="tarde"></td> <td>Projeto e Prática I</td> <td>Francisco Nascimento</td> <td> <input type="texto" name="matricula" value=13:35~14:19 size=7 disabled></td> <td BGCOLOR=black>-</td><td BGCOLOR=black>-</td> <td>Noite <input type="radio" name="turno" id="noite"></td> <td>Projeto e Prática I</td> <td>Francisco Nascimento</td> <td> <input type="texto" name="matricula" value=00000 size=5 disabled></td></form></tr>
+
+<tr><form><td>Tarde <input type="radio" name="turno" id="tarde"></td> <td>Web I</td> <td>Havana Diogo</td> <td> <input type="texto" name="matricula" value=16:10~17:40 size=7></td> <td BGCOLOR=black>-</td><td BGCOLOR=black>-</td> <td>Noite <input type="radio" name="turno" id="noite"></td> <td>Web I</td> <td>Havana Diogo</td> <td> <input type="texto" name="matricula" value=00000 size=5></td></form></tr>
+
+<tr><form><td>Tarde <input type="radio" name="turno" id="tarde"></td> <td>Programação Orientada a Objeto</td> <td>Robeto</td> <td> <input type="texto" name="matricula" value=15:25~17:40 size=7></td> <td BGCOLOR=black>-</td><td BGCOLOR=black>-</td> <td>Noite <input type="radio" name="turno" id="noite"></td> <td>Programação Orientada a Objeto</td> <td>Roberto</td> <td> <input type="texto" name="matricula" value=00000 size=5></td></form></tr>
+
+<tr><form><td>Tarde <input type="radio" name="turno" id="tarde"></td> <td>Sistemas Operacionais</td> <td>Tiago Falcão</td> <td> <input type="texto" name="matricula" value=13:35~16:09 size=7></td> <td BGCOLOR=black>-</td><td BGCOLOR=black>-</td> <td>Noite <input type="radio" name="turno" id="noite"></td> <td>Sistemas Operacionais</td> <td>Tiago Falcão</td> <td> <input type="texto" name="matricula" value="00000" size=5></td></form></tr>
+
+<tr><form><td>Tarde <input type="radio" name="turno" id="tarde"></td> <td>Banco de Dados</td> <td>Havana Diogo</td> <td> <input type="texto" name="matricula" value=13:35~16:09 size=7></td> <td BGCOLOR=black>-</td><td BGCOLOR=black>-</td> <td>Noite <input type="radio" name="turno" id="noite"></td> <td>Banco de Dados</td> <td>Havana Diogo</td> <td> <input type="texto" name="matricula" value="00000" size=5></td></form></tr>
+
+<tr><form><td>Tarde <input type="radio" name="turno" id="tarde"></td> <td>Ética Profissional</td> <td>Symone Figueiredo</td> <td> <input type="texto" name="matricula" value=16:10~17:40 size=7></td> <td BGCOLOR=black>-</td><td BGCOLOR=black>-</td> <td>Noite <input type="radio" name="turno" id="noite"></td> <td>Ética Profissional</td> <td>Symone Figueiredo</td> <td> <input type="texto" name="matricula" value="00000" size=5></td></form></tr>
+
+<tr><form><td>Tarde <input type="radio" name="turno" id="tarde"></td> <td>Segurança da Informação</td> <td>Diego Passos</td> <td> <input type="texto" name="matricula" value=16:10~17:40 size=7></td> <td BGCOLOR=black>-</td><td BGCOLOR=black>-</td> <td>Noite <input type="radio" name="turno" id="noite"></td> <td>Segurança da Informação</td> <td>Diego Passos</td> <td> <input type="texto" name="matricula" value="00000" size=5></td></form></tr>
+
+</table><br><br><br>
+ <input type="submit" name="envia" value="Enviar">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
